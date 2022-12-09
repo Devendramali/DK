@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="xyz.css">
+</head>
+<body>
+    
+    <form action="" id="f1" method="post">
+        <h4 style="color: white;">Enter Username:</h4>
+         <input type="text" id="t1"><br>
+         <h4 style="color: white;"> Enter Password:</h4>
+         <input type="password" id="t2">
+        
+             <input id="b1" type="submit"
+                value="register"  onclick="validation()">
+             </input>
+             <span style="color: white;" id="s1"></span><br>
+
+             </form>
+
+
+
+<script>
+function validation(value){
+    let un = document.getElementById('t1').value;
+    let pass = document.getElementById('t2').value;
+    let r=" ";
+    let r1=" ";
+    let r2=" ";
+     if (un.length == 0) {
+        alert( r+="user name should not be empty...!")
+         
+     }
+     if(pass.length==0){
+        alert( r1+="Password should not be empty...!")
+     }
+     if(pass.length<8){
+        alert( r2+="Password should be of 8-charecter Long..!")
+     }
+     
+ 
+ 
+ 
+ 
+ 
+    document.getElementById('s1').innerHTML=r;
+    document.getElementById('s1').innerHTML=r1;
+    document.getElementById('s1').innerHTML=r2;
+ }
+</script>
+    
+
+</body>
+</html>

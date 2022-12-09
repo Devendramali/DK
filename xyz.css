@@ -1,0 +1,118 @@
+
+body{
+   background-image: url("https://images.pexels.com/photos/35796/amazing-beautiful-beauty-blue.jpg?cs=srgb&dl=pexels-pixabay-35796.jpg&fm=jpg");
+   background-repeat: no-repeat;
+   height: 100%;
+   width: 100%;
+   background-color: rgb(1, 7, 44);
+  
+}
+#navbarSupportedContent>ul>b>li>a:hover{
+  
+    background-color: rgba(39, 36, 32, 0.932);
+}
+#navbarSupportedContent>ul>b>li>a{
+    color: white;
+}
+#b{
+    color: orangered;
+}
+#log{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ11pTQF06TA7gB23I2UVSe0cAoJtAgt_CqpA&usqp=CAU);
+}
+#log>h2{
+    color: orange;
+    background:white;
+    text-align: center;
+    border-radius: 10px;
+}
+#form>div>label>h3{color: white;
+   
+}
+#form{
+    text-align: center;
+}
+#btn:hover{
+ background-color: chocolate;
+}
+#form>div>p{
+    color: white;
+}
+#form>div>p>a{
+  text-decoration: none;
+  color: chocolate;
+}
+#dev{
+    color: white;
+    
+}
+#dev>h1>span{
+    color: chocolate;
+}
+#dev>h1,#dev>h2{
+    font-size: 54px;
+}
+#form>div>a>svg{
+    text-decoration: none;
+    color: white;
+    margin: 7px;
+}
+.dk{
+    text-align: center;
+    color: chocolate;
+}
+#dk>p{
+    color: white;
+}
+#courses{
+    color: rgb(219, 74, 7);
+    text-align: center;
+}
+.card{
+    border-radius: 20px;
+    color: black;
+}
+.card-body>button{
+    border-radius: 20px;
+}
+.card-body>button:hover{
+    color: black;
+    background-color: chocolate;
+}
+.para>p{
+    text-align: left;
+    color: white;
+}
+#footer{
+    background-color: black;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+
+
+}
+li{
+    list-style: none;
+}
+a:hover{
+    color: chocolate;
+}
+.pic{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+p{
+    font-size: large;
+}
+#form{
+    text-align: center;
+}
+button:hover{
+    color: black;
+    background-color: chocolate;
+}
+#email-error,#pass-error{
+    color: rgb(255, 0, 0);
+    display: none;
+}
