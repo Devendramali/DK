@@ -22,9 +22,9 @@ body{
 }
 #log>h2{
     color: orange;
-    background:white;
+    
     text-align: center;
-    border-radius: 10px;
+    Text-decoration: underline;
 }
 #form>div>label>h3{color: white;
    
